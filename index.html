@@ -4,16 +4,21 @@
 	<meta charset="utf-8">
 	<script>
 		// TODO: create a handler
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
+		window.addEventListener("load", function () {
+			// TODO: register the handler
+		});
 	</script>
 </head>
 
 <body>
 
 	<form id="searchForm">
-    <!-- TODO: add form elements -->
+		<label>Search <input type="text" name="q" /></label>
+		<label> Google<input type="radio" value="google" name="engine" /></label>
+		<label> DuckDuckGo <input type="radio" value="duckDuckGo" name="engine" /></label>
+		<label> Bing<input type="radio" value="bing" name="engine" /></label>
+		<label> Ask <input type="radio" value="ask" name="engine" /></label>
+		<input type="submit" value="Go!" />
 	</form>
 
 </body>
